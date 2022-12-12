@@ -1,12 +1,14 @@
 body{
 	background-color: grey;
 }
+
+/* schermo */
 .schermata{
 	color: white;
 	background-color: black;
 	font-size: 1.5rem;
 }
-
+/* selezione full screen */
 .screen-mode{
 	display: flex;
 	justify-content: flex-end;
@@ -18,4 +20,23 @@ body{
 	border-radius: 8px;
 	display: inline-block;
 	margin: 4px;
+}
+
+/* blocco delle weebcam */
+.contenitore{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block-weebcam{
+	position: relative;
+	flex-direction: row;
+}
+
+.weebcam-badge{
+	position: absolute;
+	background-color: #4c4c4c;
+	font-size: 1rem;
+	bottom: 0.4rem;
+	padding: 0.4rem;
 }
